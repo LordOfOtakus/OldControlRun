@@ -40,6 +40,7 @@ public class ControlRunPlugin extends Plugin
 	@Override
 	protected void shutDown() throws Exception
 	{
+		keyManager.unregisterKeyListener(controlButtonListener);
 	}
 
 }
