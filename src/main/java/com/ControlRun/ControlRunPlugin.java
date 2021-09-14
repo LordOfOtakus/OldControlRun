@@ -4,7 +4,6 @@ import com.google.inject.Key;
 import com.google.inject.Provides;
 import javax.inject.Inject;
 
-import jdk.nashorn.internal.runtime.options.Options;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.*;
 import net.runelite.api.events.GameStateChanged;
