@@ -20,7 +20,7 @@ public class ControlButtonListener implements KeyListener
 
     @Override
     public void keyPressed(KeyEvent e) {
-        if (e.isControlDown())
+        if (e.getKeyCode() == 17)
         {
             runState = client.getVarpValue(173);
             if (runState == 1)
